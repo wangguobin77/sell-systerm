@@ -1,0 +1,175 @@
+*{
+	margin:0;
+	padding:0;
+	user-select:none;
+
+}
+
+input
+{
+color:#000 !important;
+outline: none;
+border:0;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+.bg{
+	position: absolute;
+	width:100%;
+	height:100%;
+	background:url(../img/bg.png) no-repeat;
+	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+ .wrap{
+ 	width: 7.7rem;
+ 	margin:0.2rem auto;
+ 	padding-top:-0.5rem;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+
+ .logo{
+ 	margin:0 auto;
+ 	width:1.3rem;
+ 	height: 1.5rem;
+ 	background: url(../img/logo.png) no-repeat center center/cover;
+ 	margin-bottom: 0.5rem;
+ }
+ .wrap h4{
+	font-family:'Microsoft Yahei', 'SimHei' , "苹方";
+    font-size: 36px;
+    text-align: center;
+ }
+
+ .information{
+ 	width: 7.7rem;
+ 	margin: 0 auto;
+ 	/*display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: center;*/
+ }
+ .information .shuru{
+ 	margin:0 auto;
+ 	width: 7.7rem;
+ 	height:1rem;
+ 	background:#fff;
+	margin-bottom: 0.6rem;
+ 	padding-left: 0.5rem;
+ 	border-radius: 100px;
+ 	opacity: 0.5;
+ 	box-sizing: border-box;
+ 	position: relative;
+ 	
+ }
+  .information .shuru input{
+  	color: #fff;
+  	opacity:0.5;
+  	position: absolute;
+  	top:0;
+  	right:0;
+  }
+ .information .shuru .sricon{
+ 	font-color:#000;
+ 	float: left;
+ 	width: 20%;
+ 	font-size:0.3rem !important;
+ 	line-height: 1rem !important;
+ 	color:#fff;
+ }
+ .information .mm .sr{
+ 	font-color:#fff;
+ 	float: left;
+ 	width: 20%;
+ 	font-size:0.3rem !important;
+ 	line-height: 1rem !important;
+ }
+ .information .mm{
+ 	margin:0 auto;
+ 	width: 7.7rem;
+ 	height:1rem;
+ 	background:#fff;
+ 	margin-bottom: 0.6rem;
+ 	padding-left: 0.5rem;
+ 	border-radius:100px;
+ 	opacity: 0.5;
+ 	box-sizing: border-box;
+ 	position: relative;
+ 	margin:0.2rem auto 0.6rem auto;
+
+ }
+  .information .shuru input{
+ 	height: 100%;
+ 	width: 80%;
+ 	outline: none;
+ 	border:0;
+ 	background: none;
+ 	font-size:24px;
+ 	padding-left: 35px;
+ 	color: #fff;
+ 	z-index: 10;
+
+ 
+
+ }
+ .information .mm input{
+ 	height: 100%;
+ 	width: 80%;
+ 	outline: none;
+ 	border:0;
+ 	background: none;
+ 	font-size: 24px;
+ 	padding-left: 35px;
+ 	color:#fff;
+ 	position: absolute;
+  	top:0;
+  	right:0;
+ }
+
+  .information button{
+  	display: block;
+  	outline: none;
+  	border:0;
+ 	width: 7.7rem;
+ 	height:1rem;
+ 	font-size: 28px;
+ 	background:#4399FC;
+ 	border-radius:100px;
+ 	
+ }
+.wj{
+	display: block;
+	margin:0 auto;
+	margin-top:0.5rem;
+	background: none;
+	font-size: 0.28rem;
+	border: 0;
+	text-align: center;
+	line-height:0.3rem;
+	color:#fff;
+	outline: none;
+}
+
+@media screen and (max-width:1200px){
+	.bg .wrap{
+		position: fixed;
+		top:2rem;
+	}
+	.bg .information{
+		position: absolute;
+		top:6rem;
+		font-size: 0;
+	}
+	.bg .information .dl{
+		margin-bottom: 0.6rem;
+	}
+	.bg .wj{
+		position: absolute;
+		top:11rem;
+	}
+}
